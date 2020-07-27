@@ -229,6 +229,8 @@ Je %organisationNoun% heeft je de toegang geweigerd tot deze dienst. Je zult dus
     'error_no_authentication_request_received' => 'Fout - Geen authenticatie-aanvraag ontvangen.',
     'error_authn_context_class_ref_blacklisted' => 'Fout - Waarde van AuthnContextClassRef is niet toegestaan',
     'error_authn_context_class_ref_blacklisted_desc' => '<p>Je kunt niet inloggen omdat je %organisationNoun% een waarde stuurde voor AuthnContextClassRef die niet is toegestaan.</p>',
+    'error_invalid_mfa_authn_context_class_ref' => 'Fout - Multi factor authenticatie muslikt',
+    'error_invalid_mfa_authn_context_class_ref_desc' => '<p>Jouw %organisationNoun% dwingt geavanceerde multi-factor authenticatie af voor deze dienst. Maar je second factor kon niet gevalideerd worden. Neem hiervoor contact op met de service desk van je %organisationNoun% om dit op te lossen.</p>',
 
     /**
      * %1 AttributeName

@@ -323,6 +323,13 @@ Feature:
       And I give my consent
     Then I should see "Error - AuthnContextClassRef value is disallowed"
 
+  Scenario: The configured IdP for MFA doesn't have a required auth method in response.
+    Given the IdP "Dummy Idp" is configured for MFA authn method "http://schemas.microsoft.com/claims/multipleauthn" for SP "Dummy SP"
+    When I log in at "Dummy SP"
+      And I pass through EngineBlock
+      And I pass through the IdP
+    Then I should see "Error - Multi factor authentication failed"
+
   Scenario: I encounter an unexpected error, and can reload the error feedback page
    Given EngineBlock raises an unexpected error
     When I log in at "Dummy SP"

@@ -226,6 +226,8 @@ Your %organisationNoun% has denied you access to this service. You will have to 
     'error_no_authentication_request_received' => 'Error - No authentication request received.',
     'error_authn_context_class_ref_blacklisted'                     => 'Error - AuthnContextClassRef value is disallowed',
     'error_authn_context_class_ref_blacklisted_desc'                => '<p>You cannot login because your %organisationNoun% sent a value for AuthnContextClassRef that is not allowed.</p>',
+    'error_invalid_mfa_authn_context_class_ref' => 'Error - Multi factor authentication failed',
+    'error_invalid_mfa_authn_context_class_ref_desc' => '<p>Your %organisationNoun% requires enhanced security via multi-factor authentication for this service. However, your second factor could not be verified. Please contact the service desk of your %organisationNoun% to resolve this.</p>',
     /**
      * %1 AttributeName
      * %2 Options

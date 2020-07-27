@@ -55,5 +55,5 @@ Feature:
     When I log in at "SSO-SP"
       And I pass through EngineBlock
       And I pass through the IdP
-    Then I should see "Error - An error occurred"
-      And the url should match "/feedback/unknown-error"
+    Then I should see "Error - Multi factor authentication failed"
+      And the url should match "/authentication/feedback/invalid-mfa-authn-context-class-ref"

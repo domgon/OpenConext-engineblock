@@ -225,6 +225,8 @@ A sua %organisationNoun% negou-lhe acesso a este serviço. Terá de entrar em co
     </p>',
     'error_authn_context_class_ref_blacklisted'                     => 'Erro - O valor para AuthnContextClassRef não é permitido',
     'error_authn_context_class_ref_blacklisted_desc'                => '<p>Não pode autenticar-se porque a sua %organisationNoun% enviou um valor para AuthnContextClassRef que não é permitido.</p>',
+    'error_invalid_mfa_authn_context_class_ref' => 'Erro - falha na autenticação multifatorial',
+    'error_invalid_mfa_authn_context_class_ref_desc' => '<p>Seu% organisationNoun% requer segurança aprimorada por meio de autenticação multifator para este serviço. No entanto, seu segundo fator não pôde ser verificado. Entre em contato com a central de atendimento do seu% organisationNoun% para resolver isso.</p>',
     'error_no_authentication_request_received' => 'Nenhuma solicitação de autenticação recebida.',
     /**
      * %1 AttributeName
